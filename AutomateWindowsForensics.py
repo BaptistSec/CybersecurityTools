@@ -24,6 +24,10 @@ for key in keys:
     except:
         continue
 
-# Output the results
-for result in results:
-    print(result)
+# Output the results to a file
+with open("registry_results.txt", "w") as f:
+    f.write("Registry key\tValue name\tValue data\tValue type\n")
+    for result in results:
+        f.write(f"{result[0]}\t{result[1]}\t{result[2]}\t{result[3]}\n")
+        
+print(f"Results written to registry_results.txt. Total results: {len(results)}")

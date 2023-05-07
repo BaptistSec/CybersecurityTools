@@ -1,5 +1,3 @@
-Sure, here's a sample GitHub README file for the automated Zeek code:
-
 # Automated Zeek Script
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/yourname/zeek-automate/blob/main/LICENSE)
